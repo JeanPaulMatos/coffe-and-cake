@@ -42,3 +42,53 @@ img {
     vertical-align: top;
     max-width: 100%;
 }
+
+a {
+    text-decoration: none;
+    color: @texto-oscuro;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+
+    &:hover {
+        color: fade(@texto-oscuro, 50%);
+    }
+}
+
+
+/* *----------------------------------------* */
+/* Encabezado */
+/* *----------------------------------------* */
+
+header {
+    .menu-bar-pc {                      /* Esto es para mantenerlo fijo arriba */
+        background: @blanco;
+        width: 100%;
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        padding: 0 2.25rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 5.875rem;
+        border-bottom: 1px solid @gris-claro;
+
+        .logo {
+            max-width: 3.125rem;
+        }
+
+        .menu-principal {
+            a {
+                padding: 0 0.5625rem;
+            }
+        }
+
+        .top-redes {
+            a {
+                padding: 0 0.5625rem;
+            }
+        }
+    }
+}
