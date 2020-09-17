@@ -456,3 +456,25 @@ header .menu-bar-pc .top-redes a {
 .contacto .formulario .formulario_contacto input[type="submit"]:hover {
   background: #977c44;
 }
+/* *----------------------------------------* */
+/* Footer*/
+/* *----------------------------------------* */
+footer {
+  margin-top: 2.25rem;
+  background: #141618;
+  padding: 3.625rem 0;
+  text-align: center;
+  color: #fff;
+}
+footer .bottom-redes {
+  margin-top: 2.25rem;
+}
+footer .bottom-redes a {
+  padding: 0 0.5625rem;
+  color: #fff;
+  transition: all 0.3s ease;
+  font-size: 1.15rem;
+}
+footer .bottom-redes a:hover {
+  color: #b4975a;
+}
