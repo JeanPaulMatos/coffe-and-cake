@@ -1,3 +1,5 @@
+(function(){
+
 // PROPIEDADES SLIDER
 var propSlider = {
 
@@ -38,3 +40,5 @@ var metSlider = {
 }
 
 metSlider.inicio();
+
+}())
