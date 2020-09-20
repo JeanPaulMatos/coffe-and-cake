@@ -1,6 +1,4 @@
-
 (function(){                                                        /* Lo que hicimos aqui es proteger nuestro codigo. Dentro de las llaves va tu codigo JS, con esto proteges tu codigo, las variables, objetos y propiedades para que otro script no lo afecte y no genere conflicto. Ya que recuerda no se puede acceder a una variable dentro de una funcion desde afuera. Eso es Scope */
-
 
 // OBJETO CON LAS PROPIEDADES DEL EFECTO LIGHTBOX
 var propLightbox = {
