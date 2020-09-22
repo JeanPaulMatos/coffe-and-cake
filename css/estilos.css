@@ -126,7 +126,7 @@ header .menu-bar-movil .slideMenu {
   width: 100%;
   transition: all 0.3s ease;
 }
-header .menu-bar-movil .slideMenu:active {
+header .menu-bar-movil .slideMenu.active {
   left: 0;
 }
 header .menu-bar-movil .slideMenu .top-redes {
@@ -352,7 +352,7 @@ header .menu-bar-movil .slideMenu .menu-principal a {
   color: #b4975a;
   border-bottom: 2px solid #b4975a;
 }
-.menu-platos .container .contenedor-menu .encabezado li:active a {
+.menu-platos .container .contenedor-menu .encabezado li.active a {
   color: #b4975a;
   border-bottom: 2px solid #b4975a;
 }
@@ -365,7 +365,7 @@ header .menu-bar-movil .slideMenu .menu-principal a {
 }
 .menu-platos .container .contenedor-menu .contenido > div {
   display: none;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 .menu-platos .container .contenedor-menu .contenido .active {
   display: block;

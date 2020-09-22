@@ -1,3 +1,4 @@
+(function(){
 
 // PROPIEDADES SCROLL
 var propScroll = {
@@ -108,3 +109,5 @@ var metScroll = {
 }
 
 metScroll.inicio();
+
+}())
